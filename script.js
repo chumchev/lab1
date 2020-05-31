@@ -1,12 +1,3 @@
-// const btnCreate = document.querySelector('.btnCreateVertex');
-// const btnOutMatrix = document.querySelector('.outMatrixs');
-// const btnOutMatrix1 = document.querySelector('.outMatrixs1');
-// const dataEntry = document.querySelector('.dataEntry');
-// const td = document.querySelectorAll('td');
-// const tableB = document.querySelector('.tableOfMatrixB');
-// const vertexValue = document.querySelector('.vertexInput');
-// const containerForG = document.querySelector('.container_for_G')
-// const inputOfNum = document.querySelector('.inputOfNumbers')
 const btnCreate = document.querySelector('.createMatrix');
 const btnMatrInc = document.querySelector('.MatrInc');
 const btnLeftInc = document.querySelector('.LeftInc');
