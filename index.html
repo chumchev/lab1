@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+            <!-- <form class="sizeInput" method=""> -->
+                <div class="form-row">
+                    <div class="col-auto">
+                        <label class="h3">Введите количество вершин: </label>
+                    </div>
+                    <div class="col-auto">
+                        <input type="text" class="matrix-size form-control mb-2" size="1" >
+                    </div>
+                    <div class="col-auto">
+                        <button class="createMatrix btn btn-primary mb-2">Создать</button>
+                    </div>
+
+                </div>
+
+            <!-- </form> -->
+
+                <div class="col-1" data-spy="scroll">
+                    <table class="matrix-inputs table table-hover"></table>
+                </div>
+
+                <div class="btn-group">
+                    <button class="MatrInc btn btn-secondary" style="display: none;">Получить матрицу инциденций</button>
+                    <button class="LeftInc btn btn-secondary" style="display: none;">Получить множество левых инциденций</button>
+                </div>
+            
+
+        <div class="row mt-2">
+            <ul class="col-auto dataEntry mt-2 list-group mr-5">
+
+            </ul>
+            <table class="col-1 matrix-output table table-bordered table-hover mt-2"></table>
+        </div>
+    </div>
+
+
+    
+
+    <script src="script.js"></script>
+
+</body>
+</html>
